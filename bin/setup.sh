@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "****************************************"
+echo "*******************************************"
 echo " Setting up Capstone Environment"
-echo "****************************************"
+echo "*******************************************"
 
 echo "Updating package manager..."
 sudo add-apt-repository -y ppa:deadsnakes/ppa
@@ -36,9 +36,9 @@ make db
 echo "Checking the Postgres Docker container..."
 docker ps
 
-echo "****************************************"
+echo "*******************************************"
 echo " Capstone Environment Setup Complete"
-echo "****************************************"
+echo "*******************************************"
 echo ""
 echo "Use 'exit' to close this terminal and open a new one to initialize the environment"
 echo ""
